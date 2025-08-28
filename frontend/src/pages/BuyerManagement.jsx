@@ -17,10 +17,10 @@ const BuyerManagement = () => {
   });
   
   const [buyers, setBuyers] = useState([
-    { id: 1, company: 'Acme Corp.', contact: 'john.doe@acme.com', totalOrders: 15, location: 'New York, USA', status: 'Active' },
-    { id: 2, company: 'Stark Industries', contact: 'tony@starkind.com', totalOrders: 25, location: 'Malibu, USA', status: 'Active' },
+    { id: 1, company: 'Acme Corp.', contact: 'miskat@acme.com', totalOrders: 15, location: 'Ahshulia', status: 'Active' },
+    { id: 2, company: 'Stark Industries', contact: 'tony@starkind.com', totalOrders: 25, location: "Cox's Bazar", status: 'Active' },
     { id: 3, company: 'Wayne Enterprises', contact: 'bruce@wayne.com', totalOrders: 12, location: 'Gotham, USA', status: 'Active' },
-    { id: 4, company: 'Oscorp Industries', contact: 'norman@oscorp.com', totalOrders: 8, location: 'New York, USA', status: 'Inactive' },
+    { id: 4, company: 'Oscorp Industries', contact: 'mohammod@oscorp.com', totalOrders: 8, location: 'New York, USA', status: 'Inactive' },
     { id: 5, company: 'LexCorp', contact: 'lex@lexcorp.com', totalOrders: 32, location: 'Metropolis, USA', status: 'Active' },
   ]);
 
