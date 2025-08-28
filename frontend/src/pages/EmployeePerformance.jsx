@@ -3,21 +3,21 @@ import { Search, Calendar, Star, ChevronRight, User, Clock, X, Award, TrendingUp
 
 // --- INITIAL MOCK DATA ---
 const initialEmployees = [
-  { id: 1, name: 'John Doe', role: 'Inventory Manager', avatar: 'JD', rating: 4 },
-  { id: 2, name: 'Jane Smith', role: 'Sales Executive', avatar: 'JS', rating: 5 },
-  { id: 3, name: 'Mike Johnson', role: 'Procurement Specialist', avatar: 'MJ', rating: 3 },
-  { id: 4, name: 'Sarah Wilson', role: 'Customer Service', avatar: 'SW', rating: 5 },
+  { id: 1, name: 'Miskatul Masabi', role: 'Inventory Manager', avatar: 'JD', rating: 4 },
+  { id: 2, name: 'mohammad', role: 'Sales Executive', avatar: 'JS', rating: 5 },
+  { id: 3, name: 'Kafia', role: 'Procurement Specialist', avatar: 'MJ', rating: 3 },
+  { id: 4, name: 'joma akter', role: 'Customer Service', avatar: 'SW', rating: 5 },
 ];
 
 const allAttendanceData = [
-  { employeeId: 1, name: 'John Doe', date: '2025-08-25', checkIn: '09:02 AM', checkOut: '05:05 PM', hours: '8.05' },
-  { employeeId: 2, name: 'Jane Smith', date: '2025-08-25', checkIn: '08:55 AM', checkOut: '05:01 PM', hours: '8.06' },
-  { employeeId: 3, name: 'Mike Johnson', date: '2025-08-25', checkIn: '09:10 AM', checkOut: '05:15 PM', hours: '8.05' },
-  { employeeId: 4, name: 'Sarah Wilson', date: '2025-08-25', checkIn: '08:59 AM', checkOut: '05:00 PM', hours: '8.01' },
-  { employeeId: 1, name: 'John Doe', date: '2025-08-26', checkIn: '08:58 AM', checkOut: '05:01 PM', hours: '8.03' },
-  { employeeId: 2, name: 'Jane Smith', date: '2025-08-26', checkIn: '09:01 AM', checkOut: '04:55 PM', hours: '7.54' },
-  { employeeId: 3, name: 'Mike Johnson', date: '2025-08-27', checkIn: '09:00 AM', checkOut: '05:00 PM', hours: '8.00' },
-  { employeeId: 4, name: 'Sarah Wilson', date: '2025-08-28', checkIn: '09:05 AM', checkOut: '05:02 PM', hours: '7.57' },
+  { employeeId: 1, name: 'Miskat', date: '2025-08-25', checkIn: '09:02 AM', checkOut: '05:05 PM', hours: '8.05' },
+  { employeeId: 2, name: 'Masabi', date: '2025-08-25', checkIn: '08:55 AM', checkOut: '05:01 PM', hours: '8.06' },
+  { employeeId: 3, name: 'Miskatul Masabi', date: '2025-08-25', checkIn: '09:10 AM', checkOut: '05:15 PM', hours: '8.05' },
+  { employeeId: 4, name: 'mohammad', date: '2025-08-25', checkIn: '08:59 AM', checkOut: '05:00 PM', hours: '8.01' },
+  { employeeId: 1, name: 'joma', date: '2025-08-26', checkIn: '08:58 AM', checkOut: '05:01 PM', hours: '8.03' },
+  { employeeId: 2, name: 'kafia sheikh', date: '2025-08-26', checkIn: '09:01 AM', checkOut: '04:55 PM', hours: '7.54' },
+  { employeeId: 3, name: 'Miskat', date: '2025-08-27', checkIn: '09:00 AM', checkOut: '05:00 PM', hours: '8.00' },
+  { employeeId: 4, name: 'Mohammad', date: '2025-08-28', checkIn: '09:05 AM', checkOut: '05:02 PM', hours: '7.57' },
 ];
 
 const allActivityLogs = [
